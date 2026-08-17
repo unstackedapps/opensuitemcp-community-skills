@@ -2,4 +2,4 @@
 
 ERP workflows for agents in OpenSuiteMCP.
 
-_No promoted skills yet. Add `skills/netsuite/<name>/SKILL.md` and list it here._
+- **[netsuite-m2m-oauth](./netsuite-m2m-oauth/SKILL.md)** — NetSuite OAuth 2.0 Client Credentials (M2M) setup and verification for REST Web Services, RESTlets, and SuiteAnalytics Connect.

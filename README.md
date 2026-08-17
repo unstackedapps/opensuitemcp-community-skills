@@ -33,7 +33,7 @@ These split on one axis — **promoted** buckets are listed here and shipped in 
 
 ### NetSuite
 
-_None yet. PRs welcome._
+- **[netsuite-m2m-oauth](./skills/netsuite/netsuite-m2m-oauth/SKILL.md)** — NetSuite OAuth 2.0 Client Credentials (M2M) setup and verification for REST, RESTlets, and SuiteAnalytics Connect.
 
 ### MCP
 
