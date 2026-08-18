@@ -10,5 +10,8 @@
   "repository": "https://github.com/unstackedapps/opensuitemcp-community-skills",
   "license": "MIT",
   "keywords": ["netsuite", "mcp", "skills", "opensuitemcp"],
-  "skills": ["./skills/examples/contribute-a-skill"]
+  "skills": [
+    "./skills/examples/contribute-a-skill",
+    "./skills/netsuite/netsuite-m2m-oauth"
+  ]
 }
