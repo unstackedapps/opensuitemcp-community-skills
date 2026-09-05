@@ -2,4 +2,4 @@
 
 NetSuite AI Connector, MCP Standard Tools SuiteApp, and Companion SuiteApp.
 
-_No promoted skills yet. Add `skills/mcp/<name>/SKILL.md` and list it here._
+- **[mcp-stay-on-track](./mcp-stay-on-track/SKILL.md)** — One MCP path per turn; pause, tell the user, and wait instead of looping until max iterations.

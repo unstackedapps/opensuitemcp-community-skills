@@ -12,6 +12,7 @@
   "keywords": ["netsuite", "mcp", "skills", "opensuitemcp"],
   "skills": [
     "./skills/examples/contribute-a-skill",
-    "./skills/netsuite/netsuite-m2m-oauth"
+    "./skills/netsuite/netsuite-m2m-oauth",
+    "./skills/mcp/mcp-stay-on-track"
   ]
 }

@@ -37,7 +37,7 @@ These split on one axis — **promoted** buckets are listed here and shipped in 
 
 ### MCP
 
-_None yet. PRs welcome — AI Connector, MCP Standard Tools, Companion SuiteApp._
+- **[mcp-stay-on-track](./skills/mcp/mcp-stay-on-track/SKILL.md)** — One MCP path per turn; pause, tell the user, and wait instead of looping until max iterations.
 
 ### SuiteScript
 
