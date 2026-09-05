@@ -37,7 +37,7 @@ These split on one axis — **promoted** buckets are listed here and shipped in 
 
 ### MCP
 
-- **[mcp-stay-on-track](./skills/mcp/mcp-stay-on-track/SKILL.md)** — One MCP path per turn; pause, tell the user, and wait instead of looping until max iterations.
+- **[ns-stay-on-track](./skills/mcp/ns-stay-on-track/SKILL.md)** — One NetSuite `ns_*` path per turn; pause, tell the user, and wait instead of looping until max iterations.
 
 ### SuiteScript
 

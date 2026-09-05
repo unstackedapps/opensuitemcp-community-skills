@@ -1,5 +1,5 @@
 # MCP
 
-NetSuite AI Connector, MCP Standard Tools SuiteApp, and Companion SuiteApp.
+NetSuite MCP only — AI Connector, MCP Standard Tools (`ns_*`), and Companion SuiteApp. Not generic MCP servers.
 
-- **[mcp-stay-on-track](./mcp-stay-on-track/SKILL.md)** — One MCP path per turn; pause, tell the user, and wait instead of looping until max iterations.
+- **[ns-stay-on-track](./ns-stay-on-track/SKILL.md)** — One `ns_*` path per turn; pause, tell the user, and wait instead of looping until max iterations.
