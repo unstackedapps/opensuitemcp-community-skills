@@ -12,6 +12,7 @@ skills/
     get-to-the-point/
   netsuite/             ERP, ns_* tools, connector, SuiteScript
     netsuite-m2m-oauth/
+    ns-diagnose-before-retry/
     ns-stay-on-track/
   in-progress/           drafts (not shipped)
 ```
@@ -39,6 +40,7 @@ Promoted skills are listed here and shipped in `.claude-plugin/plugin.json`. Dra
 ### NetSuite
 
 - **[netsuite-m2m-oauth](./skills/netsuite/netsuite-m2m-oauth/SKILL.md)** — NetSuite OAuth 2.0 Client Credentials (M2M) setup and verification for REST, RESTlets, and SuiteAnalytics Connect.
+- **[ns-diagnose-before-retry](./skills/netsuite/ns-diagnose-before-retry/SKILL.md)** — After an `ns_*` error or empty result, diagnose, then take exactly one next action.
 - **[ns-stay-on-track](./skills/netsuite/ns-stay-on-track/SKILL.md)** — One NetSuite `ns_*` path per turn; pause, tell the user, and wait instead of looping until max iterations.
 
 ## Related
