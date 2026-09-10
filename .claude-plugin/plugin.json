@@ -1,7 +1,7 @@
 {
   "name": "opensuitemcp-community-skills",
   "version": "0.1.0",
-  "description": "Community SuiteCloud Agent Skills for OpenSuiteMCP — NetSuite, MCP, and SuiteScript guidance from practitioners.",
+  "description": "Community Agent Skills for OpenSuiteMCP — product and NetSuite guidance from practitioners.",
   "author": {
     "name": "Unstacked Apps, LLC",
     "url": "https://www.unstackedapps.com"
@@ -9,10 +9,10 @@
   "homepage": "https://opensuitemcp.com/docs/skills",
   "repository": "https://github.com/unstackedapps/opensuitemcp-community-skills",
   "license": "MIT",
-  "keywords": ["netsuite", "mcp", "skills", "opensuitemcp"],
+  "keywords": ["netsuite", "opensuitemcp", "skills"],
   "skills": [
-    "./skills/examples/contribute-a-skill",
+    "./skills/opensuitemcp/get-to-the-point",
     "./skills/netsuite/netsuite-m2m-oauth",
-    "./skills/mcp/ns-stay-on-track"
+    "./skills/netsuite/ns-stay-on-track"
   ]
 }

@@ -8,10 +8,15 @@ Layout follows [mattpocock/skills](https://github.com/mattpocock/skills): one fo
 
 ```text
 skills/
-  <bucket>/
-    <skill-name>/
-      SKILL.md
+  opensuitemcp/          product chat / policy
+    get-to-the-point/
+  netsuite/             ERP, ns_* tools, connector, SuiteScript
+    netsuite-m2m-oauth/
+    ns-stay-on-track/
+  in-progress/           drafts (not shipped)
 ```
+
+OpenSuiteMCP syncs leaf folders (except `in-progress/`). The bucket is for humans; the slug must be unique across the pack. Naming rules are in `AGENTS.md`.
 
 ## Install
 
@@ -25,23 +30,16 @@ npx skills@latest add unstackedapps/opensuitemcp-community-skills
 
 ## Reference
 
-These split on one axis — **promoted** buckets are listed here and shipped in `.claude-plugin/plugin.json`. Drafts live in `in-progress/` until they move.
+Promoted skills are listed here and shipped in `.claude-plugin/plugin.json`. Drafts live in `in-progress/` until they move.
 
-### Examples
+### OpenSuiteMCP
 
-- **[contribute-a-skill](./skills/examples/contribute-a-skill/SKILL.md)** — How to add a skill to this pack (frontmatter, buckets, review bar).
+- **[get-to-the-point](./skills/opensuitemcp/get-to-the-point/SKILL.md)** — Raw answers only; no preamble, hedging, or follow-up offers.
 
 ### NetSuite
 
 - **[netsuite-m2m-oauth](./skills/netsuite/netsuite-m2m-oauth/SKILL.md)** — NetSuite OAuth 2.0 Client Credentials (M2M) setup and verification for REST, RESTlets, and SuiteAnalytics Connect.
-
-### MCP
-
-- **[ns-stay-on-track](./skills/mcp/ns-stay-on-track/SKILL.md)** — One NetSuite `ns_*` path per turn; pause, tell the user, and wait instead of looping until max iterations.
-
-### SuiteScript
-
-_None yet. PRs welcome._
+- **[ns-stay-on-track](./skills/netsuite/ns-stay-on-track/SKILL.md)** — One NetSuite `ns_*` path per turn; pause, tell the user, and wait instead of looping until max iterations.
 
 ## Related
 
